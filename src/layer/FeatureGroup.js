@@ -71,17 +71,6 @@ L.FeatureGroup = L.LayerGroup.extend({
 		return this.invoke('bringToBack');
 	},
 
-	// @method getBounds(): LatLngBounds
-	// Returns the LatLngBounds of the Feature Group (created from bounds and coordinates of its children).
-	getBounds: function () {
-		var bounds = new L.LatLngBounds();
-
-		for (var id in this._layers) {
-			var layer = this._layers[id];
-			bounds.extend(layer.getBounds ? layer.getBounds() : layer.getLatLng());
-		}
-		return bounds;
-	}
 });
 
 // @factory L.featureGroup(layers: Layer[])
