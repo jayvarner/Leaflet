@@ -7,7 +7,7 @@ Leaflet Changelog
 
 An in-progress version being developed on the `master` branch.
 
-## 1.0.2 (November 21, 2016)
+## 1.0.2.1 (November 21, 2016)
 
 ### Bug fixes
 

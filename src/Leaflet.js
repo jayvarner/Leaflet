@@ -1,6 +1,6 @@
 
 var L = {
-	version: '1.0.2'
+	version: '1.0.2.1'
 };
 
 function expose() {
