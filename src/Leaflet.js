@@ -4,6 +4,7 @@ var L = {
 };
 
 function expose() {
+    console.log('yup this is mine');
 	var oldL = window.L;
 
 	L.noConflict = function () {
